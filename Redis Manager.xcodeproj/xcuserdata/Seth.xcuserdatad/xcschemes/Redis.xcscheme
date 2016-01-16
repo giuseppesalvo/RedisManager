@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DF63D9E1C49159B00C50764"
-               BuildableName = "Redis.app"
-               BlueprintName = "Redis"
-               ReferencedContainer = "container:Redis.xcodeproj">
+               BuildableName = "Redis Manager.app"
+               BlueprintName = "Redis Manager"
+               ReferencedContainer = "container:Redis Manager.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DF63DAF1C49159B00C50764"
-               BuildableName = "RedisTests.xctest"
-               BlueprintName = "RedisTests"
-               ReferencedContainer = "container:Redis.xcodeproj">
+               BuildableName = "Redis Manager.xctest"
+               BlueprintName = "Redis ManagerTests"
+               ReferencedContainer = "container:Redis Manager.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DF63DBA1C49159B00C50764"
-               BuildableName = "RedisUITests.xctest"
-               BlueprintName = "RedisUITests"
-               ReferencedContainer = "container:Redis.xcodeproj">
+               BuildableName = "Redis Manager.xctest"
+               BlueprintName = "Redis ManagerUITests"
+               ReferencedContainer = "container:Redis Manager.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DF63D9E1C49159B00C50764"
-            BuildableName = "Redis.app"
-            BlueprintName = "Redis"
-            ReferencedContainer = "container:Redis.xcodeproj">
+            BuildableName = "Redis Manager.app"
+            BlueprintName = "Redis Manager"
+            ReferencedContainer = "container:Redis Manager.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DF63D9E1C49159B00C50764"
-            BuildableName = "Redis.app"
-            BlueprintName = "Redis"
-            ReferencedContainer = "container:Redis.xcodeproj">
+            BuildableName = "Redis Manager.app"
+            BlueprintName = "Redis Manager"
+            ReferencedContainer = "container:Redis Manager.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DF63D9E1C49159B00C50764"
-            BuildableName = "Redis.app"
-            BlueprintName = "Redis"
-            ReferencedContainer = "container:Redis.xcodeproj">
+            BuildableName = "Redis Manager.app"
+            BlueprintName = "Redis Manager"
+            ReferencedContainer = "container:Redis Manager.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -2,8 +2,8 @@
 //  RedisTests.swift
 //  RedisTests
 //
-//  Created by Seth on 15/01/16.
-//  Copyright © 2016 Seth. All rights reserved.
+//  Created by Giuseppe Salvo on 15/01/16.
+//  Copyright © 2016 Giuseppe Salvo. All rights reserved.
 //
 
 import XCTest

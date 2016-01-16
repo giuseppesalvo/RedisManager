@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DA593FA1C499F15004014EC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA593F91C499F15004014EC /* Task.swift */; };
+		5DA593FC1C49AD65004014EC /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA593FB1C49AD65004014EC /* PreferencesController.swift */; };
+		5DA593FE1C49AED3004014EC /* RedisPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA593FD1C49AED3004014EC /* RedisPaths.swift */; };
 		5DF63DA31C49159B00C50764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF63DA21C49159B00C50764 /* AppDelegate.swift */; };
 		5DF63DA51C49159B00C50764 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF63DA41C49159B00C50764 /* ViewController.swift */; };
 		5DF63DA71C49159B00C50764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF63DA61C49159B00C50764 /* Assets.xcassets */; };
 		5DF63DAA1C49159B00C50764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF63DA81C49159B00C50764 /* Main.storyboard */; };
 		5DF63DB51C49159B00C50764 /* RedisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF63DB41C49159B00C50764 /* RedisTests.swift */; };
 		5DF63DC01C49159B00C50764 /* RedisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF63DBF1C49159B00C50764 /* RedisUITests.swift */; };
+		5DF63DCE1C49435A00C50764 /* Redis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF63DCD1C49435A00C50764 /* Redis.swift */; };
+		5DF63DD01C4948A600C50764 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF63DCF1C4948A600C50764 /* Popup.swift */; };
+		5DF63DD21C494C7500C50764 /* Installer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF63DD11C494C7500C50764 /* Installer.swift */; };
+		5DF63DD41C49606800C50764 /* InstallationCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF63DD31C49606800C50764 /* InstallationCheck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +40,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5DF63D9F1C49159B00C50764 /* Redis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA593F91C499F15004014EC /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		5DA593FB1C49AD65004014EC /* PreferencesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesController.swift; sourceTree = "<group>"; };
+		5DA593FD1C49AED3004014EC /* RedisPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedisPaths.swift; sourceTree = "<group>"; };
+		5DF63D9F1C49159B00C50764 /* Redis Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Redis Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF63DA21C49159B00C50764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DF63DA41C49159B00C50764 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5DF63DA61C49159B00C50764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DF63DA91C49159B00C50764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DF63DAB1C49159B00C50764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DF63DB01C49159B00C50764 /* RedisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF63DB01C49159B00C50764 /* Redis Manager.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Redis Manager.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF63DB41C49159B00C50764 /* RedisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisTests.swift; sourceTree = "<group>"; };
 		5DF63DB61C49159B00C50764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DF63DBB1C49159B00C50764 /* RedisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF63DBB1C49159B00C50764 /* Redis Manager.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Redis Manager.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF63DBF1C49159B00C50764 /* RedisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisUITests.swift; sourceTree = "<group>"; };
 		5DF63DC11C49159B00C50764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF63DCD1C49435A00C50764 /* Redis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Redis.swift; sourceTree = "<group>"; };
+		5DF63DCF1C4948A600C50764 /* Popup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		5DF63DD11C494C7500C50764 /* Installer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Installer.swift; sourceTree = "<group>"; };
+		5DF63DD31C49606800C50764 /* InstallationCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallationCheck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DA593FF1C49AF71004014EC /* Redis */ = {
+			isa = PBXGroup;
+			children = (
+				5DA593FD1C49AED3004014EC /* RedisPaths.swift */,
+				5DF63DCD1C49435A00C50764 /* Redis.swift */,
+			);
+			name = Redis;
+			sourceTree = "<group>";
+		};
 		5DF63D961C49159A00C50764 = {
 			isa = PBXGroup;
 			children = (
@@ -85,9 +108,9 @@
 		5DF63DA01C49159B00C50764 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DF63D9F1C49159B00C50764 /* Redis.app */,
-				5DF63DB01C49159B00C50764 /* RedisTests.xctest */,
-				5DF63DBB1C49159B00C50764 /* RedisUITests.xctest */,
+				5DF63D9F1C49159B00C50764 /* Redis Manager.app */,
+				5DF63DB01C49159B00C50764 /* Redis Manager.xctest */,
+				5DF63DBB1C49159B00C50764 /* Redis Manager.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,8 +118,10 @@
 		5DF63DA11C49159B00C50764 /* Redis */ = {
 			isa = PBXGroup;
 			children = (
+				5DF63DDA1C49797100C50764 /* CustomClasses */,
 				5DF63DA21C49159B00C50764 /* AppDelegate.swift */,
 				5DF63DA41C49159B00C50764 /* ViewController.swift */,
+				5DA593FB1C49AD65004014EC /* PreferencesController.swift */,
 				5DF63DA61C49159B00C50764 /* Assets.xcassets */,
 				5DF63DA81C49159B00C50764 /* Main.storyboard */,
 				5DF63DAB1C49159B00C50764 /* Info.plist */,
@@ -122,12 +147,32 @@
 			path = RedisUITests;
 			sourceTree = "<group>";
 		};
+		5DF63DD91C49796700C50764 /* Installer */ = {
+			isa = PBXGroup;
+			children = (
+				5DA593F91C499F15004014EC /* Task.swift */,
+				5DF63DD31C49606800C50764 /* InstallationCheck.swift */,
+				5DF63DD11C494C7500C50764 /* Installer.swift */,
+			);
+			name = Installer;
+			sourceTree = "<group>";
+		};
+		5DF63DDA1C49797100C50764 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5DF63DCF1C4948A600C50764 /* Popup.swift */,
+				5DA593FF1C49AF71004014EC /* Redis */,
+				5DF63DD91C49796700C50764 /* Installer */,
+			);
+			name = CustomClasses;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DF63D9E1C49159B00C50764 /* Redis */ = {
+		5DF63D9E1C49159B00C50764 /* Redis Manager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DF63DC41C49159B00C50764 /* Build configuration list for PBXNativeTarget "Redis" */;
+			buildConfigurationList = 5DF63DC41C49159B00C50764 /* Build configuration list for PBXNativeTarget "Redis Manager" */;
 			buildPhases = (
 				5DF63D9B1C49159B00C50764 /* Sources */,
 				5DF63D9C1C49159B00C50764 /* Frameworks */,
@@ -137,14 +182,14 @@
 			);
 			dependencies = (
 			);
-			name = Redis;
+			name = "Redis Manager";
 			productName = Redis;
-			productReference = 5DF63D9F1C49159B00C50764 /* Redis.app */;
+			productReference = 5DF63D9F1C49159B00C50764 /* Redis Manager.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5DF63DAF1C49159B00C50764 /* RedisTests */ = {
+		5DF63DAF1C49159B00C50764 /* Redis ManagerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DF63DC71C49159B00C50764 /* Build configuration list for PBXNativeTarget "RedisTests" */;
+			buildConfigurationList = 5DF63DC71C49159B00C50764 /* Build configuration list for PBXNativeTarget "Redis ManagerTests" */;
 			buildPhases = (
 				5DF63DAC1C49159B00C50764 /* Sources */,
 				5DF63DAD1C49159B00C50764 /* Frameworks */,
@@ -155,14 +200,14 @@
 			dependencies = (
 				5DF63DB21C49159B00C50764 /* PBXTargetDependency */,
 			);
-			name = RedisTests;
+			name = "Redis ManagerTests";
 			productName = RedisTests;
-			productReference = 5DF63DB01C49159B00C50764 /* RedisTests.xctest */;
+			productReference = 5DF63DB01C49159B00C50764 /* Redis Manager.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5DF63DBA1C49159B00C50764 /* RedisUITests */ = {
+		5DF63DBA1C49159B00C50764 /* Redis ManagerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DF63DCA1C49159B00C50764 /* Build configuration list for PBXNativeTarget "RedisUITests" */;
+			buildConfigurationList = 5DF63DCA1C49159B00C50764 /* Build configuration list for PBXNativeTarget "Redis ManagerUITests" */;
 			buildPhases = (
 				5DF63DB71C49159B00C50764 /* Sources */,
 				5DF63DB81C49159B00C50764 /* Frameworks */,
@@ -173,9 +218,9 @@
 			dependencies = (
 				5DF63DBD1C49159B00C50764 /* PBXTargetDependency */,
 			);
-			name = RedisUITests;
+			name = "Redis ManagerUITests";
 			productName = RedisUITests;
-			productReference = 5DF63DBB1C49159B00C50764 /* RedisUITests.xctest */;
+			productReference = 5DF63DBB1C49159B00C50764 /* Redis Manager.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -201,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5DF63D9A1C49159A00C50764 /* Build configuration list for PBXProject "Redis" */;
+			buildConfigurationList = 5DF63D9A1C49159A00C50764 /* Build configuration list for PBXProject "Redis Manager" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -214,9 +259,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DF63D9E1C49159B00C50764 /* Redis */,
-				5DF63DAF1C49159B00C50764 /* RedisTests */,
-				5DF63DBA1C49159B00C50764 /* RedisUITests */,
+				5DF63D9E1C49159B00C50764 /* Redis Manager */,
+				5DF63DAF1C49159B00C50764 /* Redis ManagerTests */,
+				5DF63DBA1C49159B00C50764 /* Redis ManagerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,7 +298,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DF63DA51C49159B00C50764 /* ViewController.swift in Sources */,
+				5DF63DD21C494C7500C50764 /* Installer.swift in Sources */,
+				5DF63DCE1C49435A00C50764 /* Redis.swift in Sources */,
 				5DF63DA31C49159B00C50764 /* AppDelegate.swift in Sources */,
+				5DA593FE1C49AED3004014EC /* RedisPaths.swift in Sources */,
+				5DA593FC1C49AD65004014EC /* PreferencesController.swift in Sources */,
+				5DF63DD41C49606800C50764 /* InstallationCheck.swift in Sources */,
+				5DA593FA1C499F15004014EC /* Task.swift in Sources */,
+				5DF63DD01C4948A600C50764 /* Popup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +330,12 @@
 /* Begin PBXTargetDependency section */
 		5DF63DB21C49159B00C50764 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5DF63D9E1C49159B00C50764 /* Redis */;
+			target = 5DF63D9E1C49159B00C50764 /* Redis Manager */;
 			targetProxy = 5DF63DB11C49159B00C50764 /* PBXContainerItemProxy */;
 		};
 		5DF63DBD1C49159B00C50764 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5DF63D9E1C49159B00C50764 /* Redis */;
+			target = 5DF63D9E1C49159B00C50764 /* Redis Manager */;
 			targetProxy = 5DF63DBC1C49159B00C50764 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,7 +440,7 @@
 				INFOPLIST_FILE = Redis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = giuseppesalvo.Redis;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Redis Manager";
 			};
 			name = Debug;
 		};
@@ -400,7 +452,7 @@
 				INFOPLIST_FILE = Redis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = giuseppesalvo.Redis;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Redis Manager";
 			};
 			name = Release;
 		};
@@ -412,8 +464,8 @@
 				INFOPLIST_FILE = RedisTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = giuseppesalvo.RedisTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Redis.app/Contents/MacOS/Redis";
+				PRODUCT_NAME = "Redis Manager";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Redis Manager.app/Contents/MacOS/Redis Manager";
 			};
 			name = Debug;
 		};
@@ -425,8 +477,8 @@
 				INFOPLIST_FILE = RedisTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = giuseppesalvo.RedisTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Redis.app/Contents/MacOS/Redis";
+				PRODUCT_NAME = "Redis Manager";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Redis Manager.app/Contents/MacOS/Redis Manager";
 			};
 			name = Release;
 		};
@@ -437,7 +489,7 @@
 				INFOPLIST_FILE = RedisUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = giuseppesalvo.RedisUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Redis Manager";
 				TEST_TARGET_NAME = Redis;
 				USES_XCTRUNNER = YES;
 			};
@@ -450,7 +502,7 @@
 				INFOPLIST_FILE = RedisUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = giuseppesalvo.RedisUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Redis Manager";
 				TEST_TARGET_NAME = Redis;
 				USES_XCTRUNNER = YES;
 			};
@@ -459,7 +511,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DF63D9A1C49159A00C50764 /* Build configuration list for PBXProject "Redis" */ = {
+		5DF63D9A1C49159A00C50764 /* Build configuration list for PBXProject "Redis Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DF63DC21C49159B00C50764 /* Debug */,
@@ -468,29 +520,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DF63DC41C49159B00C50764 /* Build configuration list for PBXNativeTarget "Redis" */ = {
+		5DF63DC41C49159B00C50764 /* Build configuration list for PBXNativeTarget "Redis Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DF63DC51C49159B00C50764 /* Debug */,
 				5DF63DC61C49159B00C50764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5DF63DC71C49159B00C50764 /* Build configuration list for PBXNativeTarget "RedisTests" */ = {
+		5DF63DC71C49159B00C50764 /* Build configuration list for PBXNativeTarget "Redis ManagerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DF63DC81C49159B00C50764 /* Debug */,
 				5DF63DC91C49159B00C50764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5DF63DCA1C49159B00C50764 /* Build configuration list for PBXNativeTarget "RedisUITests" */ = {
+		5DF63DCA1C49159B00C50764 /* Build configuration list for PBXNativeTarget "Redis ManagerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DF63DCB1C49159B00C50764 /* Debug */,
 				5DF63DCC1C49159B00C50764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
