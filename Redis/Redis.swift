@@ -66,11 +66,22 @@ class Redis {
         
         NSThread.sleepForTimeInterval(0.5)
         
-        if telnet.running {
+        func terminateTelnet () {
+            telnet.suspend()
             telnet.terminate()
+            
+            let t = NSRunningApplication(processIdentifier: self.task!.processIdentifier)
+            t?.terminate()
+            t?.forceTerminate()
+            
+            system("kill -9 \(telnet.processIdentifier)")
+        }
+        
+        if telnet.running {
+            terminateTelnet()
             return true
         } else {
-            telnet.terminate()
+            terminateTelnet()
             return false
         }
     }

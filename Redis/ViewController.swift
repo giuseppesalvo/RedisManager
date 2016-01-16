@@ -23,6 +23,8 @@ class ViewController: NSViewController {
         
 
         self.view.window?.addChildWindow(windowController!.window!, ordered: NSWindowOrderingMode.Above )
+        windowController?.window?.makeMainWindow()
+        windowController?.window?.makeKeyAndOrderFront(nil)
         
     }
 
