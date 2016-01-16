@@ -61,11 +61,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func updateStatus ( state:Bool ) {
         if state {
-            redisState.title = "State: listen on port 6379"
+            redisState.title = "Status: listen on port 6379"
             toggleRedisBtn.title = "Stop"
         }
         else {
-            redisState.title = "State: inactive"
+            redisState.title = "Status: inactive"
             toggleRedisBtn.title = "Start"
         }
     }

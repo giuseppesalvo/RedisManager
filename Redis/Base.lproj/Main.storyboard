@@ -65,7 +65,7 @@
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <menu id="Qu5-0M-rMx">
                     <items>
-                        <menuItem title="State: inactive" id="o2C-Rc-51v">
+                        <menuItem title="Status: inactive" id="o2C-Rc-51v">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
                         <menuItem isSeparatorItem="YES" id="p5Q-LD-JHq"/>
