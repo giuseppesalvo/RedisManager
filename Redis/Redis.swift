@@ -121,7 +121,7 @@ class Redis {
     //
     func stop () -> Bool {
         
-        if self.dynamicType.isRunning && self.task.running {
+        if self.dynamicType.isRunning {
             
             self.task.terminate()
             self.build()
