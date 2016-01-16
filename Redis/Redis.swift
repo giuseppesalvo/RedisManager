@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Cocoa
 
 //
 // Redis
@@ -92,6 +93,8 @@ class Redis {
             
             NSThread.sleepForTimeInterval(1)
             
+            print( "\n\n\nprocessIdentifier: \(self.task.processIdentifier)\n\n\n" )
+            
             if self.task.running {
                 self.dynamicType.isRunning = true
                 self.dynamicType.error = ""
@@ -123,9 +126,19 @@ class Redis {
         
         if self.dynamicType.isRunning {
             
+            self.task.suspend()
             self.task.terminate()
+
+            let t = NSRunningApplication(processIdentifier: self.task!.processIdentifier)
+            t?.terminate()
+            t?.forceTerminate()
+            
+            system("kill -9 \(self.task.processIdentifier)")
+            
+            print( "\n\n\nprocessIdentifier: \(self.task.processIdentifier)\n\n\n" )
+            
             self.build()
-        
+            
             self.dynamicType.isRunning = false
             self.dynamicType.error = ""
             

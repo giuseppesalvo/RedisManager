@@ -222,7 +222,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DxX-oE-fIT">
-                                <rect key="frame" x="125" y="75" width="219" height="24"/>
+                                <rect key="frame" x="125" y="76" width="219" height="24"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="REDIS MANAGER" id="JaV-Dq-5MP">
                                     <font key="font" size="16" name="FiraCode-Bold"/>
                                     <color key="textColor" red="1" green="0.11242632745804704" blue="0.0" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
