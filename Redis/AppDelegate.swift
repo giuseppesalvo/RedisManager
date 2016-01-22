@@ -32,6 +32,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // MARK: appDidFinishLaunching
     //
     func applicationDidFinishLaunching(aNotification: NSNotification) {
+        NSApplication.sharedApplication().activateIgnoringOtherApps(true)
+        
         let _ = InstallationCheck()
         
         let icon = NSImage(named: "dbs_redis")
