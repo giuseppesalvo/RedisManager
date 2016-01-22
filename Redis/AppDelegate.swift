@@ -22,6 +22,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @IBOutlet weak var preferencesBtn: NSMenuItem!
     
     let redisWebsiteURL = "http://redis.io"
+    let redsminWebsiteURL = "https://redsmin.com"
     let myGithub = "https://github.com/giuseppesalvo"
     
     let statusItem = NSStatusBar
@@ -31,9 +32,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // MARK: appDidFinishLaunching
     //
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        
-        NSApplication.sharedApplication().activateIgnoringOtherApps(true)
-        
         let _ = InstallationCheck()
         
         let icon = NSImage(named: "dbs_redis")
@@ -117,6 +115,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @IBAction func openRedisWebsite(sender: AnyObject) {
         
         let url : NSURL = NSURL(string: self.redisWebsiteURL )!
+        NSWorkspace.sharedWorkspace().openURL( url )
+        
+    }
+    
+    //
+    // Open Redsmin Website
+    //
+    @IBAction func openRedsminWebsite(sender: AnyObject) {
+        
+        let url : NSURL = NSURL(string: self.redsminWebsiteURL )!
         NSWorkspace.sharedWorkspace().openURL( url )
         
     }
