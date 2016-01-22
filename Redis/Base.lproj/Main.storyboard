@@ -92,6 +92,12 @@
                                 <action selector="openRedisWebsite:" target="Voe-Tx-rLC" id="rOo-5S-9qb"/>
                             </connections>
                         </menuItem>
+                        <menuItem title="Redsmin GUI website" id="kkc-uK-l2H">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="openRedsminWebsite:" target="Voe-Tx-rLC" id="MK6-K8-RrA"/>
+                            </connections>
+                        </menuItem>
                         <menuItem title="About" id="AJA-y7-07n">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
@@ -224,7 +230,7 @@
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DxX-oE-fIT">
                                 <rect key="frame" x="125" y="76" width="219" height="24"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="REDIS MANAGER" id="JaV-Dq-5MP">
-                                    <font key="font" size="16" name="FiraCode-Bold"/>
+                                    <font key="font" metaFont="system" size="16"/>
                                     <color key="textColor" red="1" green="0.11242632745804704" blue="0.0" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -232,7 +238,7 @@
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TyA-uc-BV5">
                                 <rect key="frame" x="125" y="20" width="219" height="54"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="You can easily manage Redis Manager with app icon in the status bar" id="q1d-mq-Rnc">
-                                    <font key="font" size="12" name="FiraCode-Retina"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                     <color key="textColor" red="0.32464197948965101" green="0.32464197948965101" blue="0.32464197948965101" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
