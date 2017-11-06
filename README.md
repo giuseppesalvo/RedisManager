@@ -1,4 +1,7 @@
 # RedisManager
+
+##THIS PROJECT IS NO LONGER MAINTAINED
+
 Simple Mac Application to manage Redis Server
 
 [Download](https://github.com/giuseppesalvo/RedisManager/raw/master/Redis%20Manager.zip)
