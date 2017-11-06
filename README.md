@@ -1,6 +1,6 @@
 # RedisManager
 
-##THIS PROJECT IS NO LONGER MAINTAINED
+### THIS PROJECT IS NO LONGER MAINTAINED
 
 Simple Mac Application to manage Redis Server
 
