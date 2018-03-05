@@ -2,7 +2,7 @@
 
 ### THIS PROJECT IS NO LONGER MAINTAINED
 
-Simple Mac Application to manage Redis Server
+Simple macos app to manage your redis server
 
 [Download](https://github.com/giuseppesalvo/RedisManager/raw/master/Redis%20Manager.zip)
 
